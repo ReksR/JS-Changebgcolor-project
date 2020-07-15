@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.btn{
+padding:1.25 rem 5.5 rem;
+border: 1px solid purple;
+border-radius: 7px;
+color: rgb(69, 1, 109);
+background: rgba(109, 131, 148, 0.068);
+font-size: 0.85rem;
+text-transform: capitalize;
+cursor: pointer;
+outline: none;
+
+}
+.btn:hover {
+  background: rgb(0,0,0)
+}
